@@ -58,8 +58,7 @@ Python (pandas) · Data Quality Assessment · Business Question Definition · KP
 **Oluwatosin Olusanya**
 Data Analytics Intern, AnalystLab Africa
 Senior Finance Officer (13+ years) transitioning into Financial Data Analysis
-[LinkedIn](https://www.linkedin.com/in/PLACEHOLDER) · [X / Twitter](https://x.com/PLACEHOLDER)
-
+www.linkedin.com/in/oluwatosin-olusanya-aa97a739a · https://x.com/sunday_tosin
 ## Acknowledgment
 
 Completed as part of the [AnalystLab Africa](https://www.analystlabafrica.com) Experience Lab Internship Programme.

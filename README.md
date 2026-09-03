@@ -69,7 +69,7 @@ Python (pandas, matplotlib) · Data Quality Assessment · Exploratory Data Analy
 **Oluwatosin Olusanya**
 Data Analytics Intern, AnalystLab Africa
 Senior Finance Officer (13+ years) transitioning into Financial Data Analysis
-[LinkedIn](https://www.linkedin.com/in/oluwatosin-olusanya-aa97a739a) · [X / Twitter](https://x.com/sunday_tosin)
+https://www.linkedin.com/in/oluwatosin-olusanya-aa97a739a · https://x.com/sunday_tosin
 
 ## Acknowledgment
 

@@ -9,56 +9,68 @@ How can HealthConnect Clinic use data and AI to reduce missed appointments and i
 
 ## My Role (Data Analytics Track)
 
-Understand the appointment dataset, assess its quality, define the business questions worth investigating, and propose KPIs that will guide deeper analysis in later weeks — laying groundwork the Data Science track builds a predictive model on top of.
+Understand the appointment dataset, calculate KPIs, and identify what actually drives no-shows — findings that directly inform the Data Science track's predictive modeling work.
 
-## Week 4 — Problem Understanding (current)
+## Headline Findings (Week 5)
 
-**Headline finding:** Booking lead time is the strongest behavioral signal in the dataset. Same-week bookings attend far more reliably than bookings made a month or more in advance — a pattern stronger than reminders, demographics, or distance to the clinic.
-
-| Metric | Value |
+| KPI | Result |
 |---|---|
-| Total appointments | 5,000 |
-| No-Show rate | 48.5% |
-| Attended rate | 46.3% |
-| Cancelled rate | 5.3% |
-| Data quality | Clean — no duplicates, no illogical values, missingness fully explained |
+| Overall No-Show Rate | 51.2% (2,423 of 4,737 appointments) |
+| No-Show Rate: 0-3 day booking | 26.6% |
+| No-Show Rate: 30+ day booking | 63.9% |
+| No-Show Rate: no prior no-shows | 46.3% |
+| No-Show Rate: 3+ prior no-shows | 70.3% |
+| Reminder effect | 54.6% → 49.9% (modest, ~5pt) |
 
-**6 business questions defined**, each linked to a proposed KPI:
-1. What is the overall no-show rate, and how does it vary over time? → *Overall No-Show Rate*
-2. Does booking lead time affect attendance? → *No-Show Rate by Booking Lead Time*
-3. Does a patient's prior no-show history predict future no-shows? → *Repeat No-Show Rate*
-4. Does sending a reminder (and which channel) reduce no-shows? → *Reminder Effectiveness Rate*
-5. Which appointment types, days, or times see the most no-shows? → *Slot Utilisation Loss*
-6. Does distance to the clinic influence attendance?
+**The strongest finding:** booking lead time is by far the dominant driver of no-shows — patients who book close to their appointment date attend far more reliably than those booking a month or more out. This holds independently within every appointment type (verified via a robustness check), ruling out appointment type as a confounding factor. A patient's own no-show history is the second-strongest predictor. Reminders help, but only modestly compared to these two.
 
-Full detail in `reports/01_Initial_Analysis_Document.docx`.
+## Project Timeline
+
+| Week | Stage | Status |
+|---|---|---|
+| Week 4 | Problem Understanding — data quality assessment, 6 business questions, 5 proposed KPIs | ✅ Complete |
+| Week 5 | Analysis & Solution Design — all 5 KPIs calculated, EDA, visualisations, business insights, cross-track collaboration with Data Science | ✅ Complete |
+| Week 6 | Development (planned) | Upcoming |
 
 ## Repository Structure
 
 ```
 ├── reports/
-│   ├── 01_Initial_Analysis_Document.docx    # Dataset overview, data quality, business questions, KPIs
-│   └── 02_Week4_Project_Summary.docx        # Concise weekly summary
+│   ├── 01_Initial_Analysis_Document.docx            # Week 4: data quality, business questions, proposed KPIs
+│   ├── 02_Week4_Project_Summary.docx                # Week 4 summary
+│   ├── 01_Initial_HealthConnect_Analytics_Report.docx  # Week 5: calculated KPIs, EDA, insights, recommendations
+│   └── 02_Week5_Project_Summary.docx                # Week 5 summary
+├── dashboard/
+│   ├── hc_leadtime.png       # No-show rate by booking lead time
+│   ├── hc_prevnoshow.png     # No-show rate by prior no-show count
+│   ├── hc_monthly.png        # Monthly no-show trend
+│   ├── hc_reminders.png      # Reminder effectiveness by channel
+│   └── hc_type_day.png       # No-show rate by appointment type & day
 ├── data/
 │   ├── HealthConnect_Appointment_Data.csv   # Original dataset (unmodified, per project rules)
 │   └── HealthConnect_Data_Dictionary.pdf    # Variable definitions
 └── README.md
 ```
 
+## Cross-Track Collaboration
+
+Shared the confirmed finding that booking lead time and prior no-show count are the two strongest, independent predictors of no-shows with the **Data Science track**, to help prioritise their feature selection for the no-show prediction model ahead of their own analysis.
+
 ## Project Stages
 
-Problem Understanding (Week 4) → Analysis & Solution Design → Development → Testing & Refinement → Final Presentation
+Problem Understanding (Week 4) → Analysis & Solution Design (Week 5) → Development → Testing & Refinement → Final Presentation
 
 ## Tools & Skills Applied
 
-Python (pandas) · Data Quality Assessment · Business Question Definition · KPI Design · Healthcare Data Analysis
+Python (pandas, matplotlib) · Data Quality Assessment · Exploratory Data Analysis · KPI Design & Calculation · Confound/Robustness Testing · Business Insight Generation · Cross-Track Collaboration
 
 ## Author
 
 **Oluwatosin Olusanya**
 Data Analytics Intern, AnalystLab Africa
 Senior Finance Officer (13+ years) transitioning into Financial Data Analysis
-www.linkedin.com/in/oluwatosin-olusanya-aa97a739a · https://x.com/sunday_tosin
+[LinkedIn](https://www.linkedin.com/in/oluwatosin-olusanya-aa97a739a) · [X / Twitter](https://x.com/sunday_tosin)
+
 ## Acknowledgment
 
 Completed as part of the [AnalystLab Africa](https://www.analystlabafrica.com) Experience Lab Internship Programme.

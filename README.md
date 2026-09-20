@@ -21,7 +21,7 @@ Understand the appointment dataset, assess its quality, calculate KPIs, run expl
 - 5,000 appointments, no-show rate 48.5% (initial, pre-Cancelled-exclusion figure), data confirmed clean.
 - 6 business questions defined, each linked to a proposed KPI.
 
-Full detail: `reports/01_Initial_Analysis_Document.docx`, `reports/02_Week4_Project_Summary.docx`.
+Full detail: `reports/Initial Analysis Document.docx`, `reports/Week4 Project Summary.docx`.
 
 ### Week 5 — Analysis & Initial Implementation
 
@@ -33,7 +33,7 @@ Calculated all 5 proposed KPIs against the real dataset, ran exploratory analysi
 - Reminders help only modestly (~5-point improvement); appointment type, day, and time are weak drivers (3–5-point spreads).
 - Cross-track collaboration point identified with the Data Science track.
 
-Full detail: `reports/03_Week5_Project_Summary.docx` (see also the Week 5 analysis referenced in Week 6 outputs below).
+Full detail: `reports/Week5 Project Summary.docx` (see also the Week 5 analysis referenced in Week 6 outputs below).
 
 ### Week 6 — Integration, Advanced Development & Validation
 
@@ -44,7 +44,7 @@ Deepened and formally validated the two strongest Week 5 drivers rather than rep
 - **Refined KPI:** reminder effectiveness now broken out by risk segment — near-zero benefit for low-risk patients (0.4pt) vs. a real effect for every at-risk segment (4.9–6.5pt), sharpening where reminder resources should go.
 - **Cross-track integration completed with Project Management:** Week 5 findings were provided to PM and logged as a completed integration point (`Completed – PM Integration`) informing PM's Week 7 testing/refinement priorities.
 
-Full detail: `reports/04_Week6_Advanced_Analytics_Report.docx`, `reports/05_Week6_Project_Summary.docx`.
+Full detail: `reports/Week6_Advanced_Analytics_Report.docx`, `reports/Week6_Project_Summary.docx`.
 
 ### Week 7 — Testing & Refinement (current)
 
@@ -63,11 +63,11 @@ Full detail: `reports/01_HealthConnect_Analytics_Testing_Report.docx`, `reports/
 
 ```
 ├── reports/
-│   ├── 01_Initial_Analysis_Document.docx              # Week 4/5: dataset overview, data quality, KPIs, EDA, insights
-│   ├── 02_Week4_Project_Summary.docx                  # Week 4 concise summary
-│   ├── 03_Week5_Project_Summary.docx                  # Week 5 concise summary
-│   ├── 04_Week6_Advanced_Analytics_Report.docx        # Week 6: validated findings, interaction analysis, refined KPIs
-│   ├── 05_Week6_Project_Summary.docx                  # Week 6 concise summary
+│   ├── Initial Analysis Document.docx              # Week 4/5: dataset overview, data quality, KPIs, EDA, insights
+│   ├── Week4 Project Summary.docx                  # Week 4 concise summary
+│   ├── Week5 Project Summary.docx                  # Week 5 concise summary
+│   ├── Week6_Advanced_Analytics_Report.docx        # Week 6: validated findings, interaction analysis, refined KPIs
+│   ├── Week6_Project_Summary.docx                  # Week 6 concise summary
 │   ├── 01_HealthConnect_Analytics_Testing_Report.docx # Week 7: independent re-validation, combined risk matrix, sensitivity testing
 │   └── 02_Week7_Project_Summary.docx                  # Week 7 concise summary
 ├── data/
@@ -91,7 +91,7 @@ Python (pandas, scipy, scikit-learn) · Statistical Hypothesis Testing (chi-squa
 **Oluwatosin Olusanya**
 Data Analytics Intern, AnalystLab Africa
 Senior Finance Officer (13+ years) transitioning into Financial Data Analysis
-[www.linkedin.com/in/oluwatosin-olusanya-aa97a739a](http://www.linkedin.com/in/oluwatosin-olusanya-aa97a739a) · <https://x.com/sunday_tosin>
+http://www.linkedin.com/in/oluwatosin-olusanya-aa97a739a · https://x.com/sunday_tosin
 
 ## Acknowledgment
 

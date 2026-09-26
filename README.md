@@ -33,7 +33,7 @@ Combined, these two factors isolate a **1,529-appointment (1,035-patient) highes
 | 7 | Testing & Refinement | Independent re-derivation of every KPI and test (exact match); sensitivity/robustness testing; a claim of reminder-assignment bias tested and found false |
 | 8 | Final Integration & Presentation | Final decision-support package, presentation deck, and cross-track contribution to Data Science and Project Management |
 
-See ./ANALYTICAL_PROCESS.md for the full methodology write-up.
+See ANALYTICAL_PROCESS.md for the full methodology write-up.
 
 ## Business Insights & Recommendations
 

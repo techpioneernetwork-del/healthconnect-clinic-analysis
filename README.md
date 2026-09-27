@@ -82,10 +82,10 @@ Python (pandas) · Statistical Hypothesis Testing (chi-square) · Data Quality A
 **Oluwatosin Olusanya**
 Data Analytics Intern, AnalystLab Africa
 Senior Finance Officer (13+ years) transitioning into Financial Data Analysis
-[LinkedIn](http://www.linkedin.com/in/oluwatosin-olusanya-aa97a739a) · [X](https://x.com/sunday_tosin)
+http://www.linkedin.com/in/oluwatosin-olusanya-aa97a739a · https://x.com/sunday_tosin
 
 ## Acknowledgment
 
-Completed as part of the [AnalystLab Africa](https://www.analystlabafrica.com) Experience Lab Internship Programme.
+Completed as part of the AnalystLab Africa(https://www.analystlabafrica.com) Experience Lab Internship Programme.
 
 #AnalystLabAfrica
